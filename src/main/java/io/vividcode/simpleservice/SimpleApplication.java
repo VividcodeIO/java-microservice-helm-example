@@ -1,13 +1,13 @@
-package io.vividcode.helloword;
+package io.vividcode.simpleservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class HellowordApplication {
+public class SimpleApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(HellowordApplication.class, args);
+		SpringApplication.run(SimpleApplication.class, args);
 	}
 
 }

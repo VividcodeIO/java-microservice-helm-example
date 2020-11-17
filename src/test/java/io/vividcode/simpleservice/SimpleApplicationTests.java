@@ -1,10 +1,10 @@
-package io.vividcode.helloword;
+package io.vividcode.simpleservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class HellowordApplicationTests {
+class SimpleApplicationTests {
 
 	@Test
 	void contextLoads() {
