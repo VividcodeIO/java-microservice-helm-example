@@ -1,0 +1,56 @@
+replicaCount: 1
+
+image:
+  repository: local/simpleservice
+  pullPolicy: IfNotPresent
+  tag: ""
+
+imagePullSecrets: [ ]
+nameOverride: ""
+fullnameOverride: ""
+
+serviceAccount:
+  create: true
+  annotations: { }
+  name: ""
+
+podAnnotations: { }
+
+podSecurityContext: { }
+
+securityContext: { }
+
+service:
+  type: NodePort
+  port: 80
+
+ingress:
+  enabled: false
+  annotations: { }
+  hosts:
+    - host: chart-example.local
+      paths: [ ]
+  tls: [ ]
+
+resources: { }
+
+autoscaling:
+  enabled: false
+  minReplicas: 1
+  maxReplicas: 100
+  targetCPUUtilizationPercentage: 80
+
+nodeSelector: { }
+
+tolerations: [ ]
+
+affinity: { }
+
+app:
+  prefix: "Hello"
+  db:
+    host: ""
+    port: 5432
+    username: ""
+    password: ""
+    database: ""

@@ -1,0 +1,4 @@
+postgres:
+  username: puser
+  password: ppassword
+  database: simple
