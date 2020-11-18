@@ -60,3 +60,9 @@ In the `helmfile.yaml`, configurations like `postgres.username` are passed to th
 3. Build container image using `mvn package`.
 
 4. Go to `k8s` directory and run `helmfile apply` to install service and PostgreSQL.
+
+After installation is done, use `minikube service --url simple-service-simpleservice` to get the URL to access the service, then use `curl` or HTTPie to test the API.
+
+```
+http <service_url>/api/v1/user/1
+```
