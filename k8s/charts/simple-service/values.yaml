@@ -47,7 +47,6 @@ tolerations: [ ]
 affinity: { }
 
 app:
-  prefix: "Hello"
   db:
     host: ""
     port: 5432
