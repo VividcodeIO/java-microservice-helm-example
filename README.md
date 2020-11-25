@@ -2,9 +2,8 @@
 
 A microservice app created with Spring Boot `2.4.0` which accesses a PostgreSQL database and exposes a REST API.
 
-> See the video below:
+[![Video](https://img.youtube.com/vi/2H-ZiAfx7Ro/0.jpg)](https://www.youtube.com/embed/2H-ZiAfx7Ro)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2H-ZiAfx7Ro" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Helm Chart
 
