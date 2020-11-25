@@ -2,6 +2,8 @@
 
 A microservice app created with Spring Boot `2.4.0` which accesses a PostgreSQL database and exposes a REST API.
 
+> See the video below:
+
 [![Video](https://img.youtube.com/vi/2H-ZiAfx7Ro/0.jpg)](https://www.youtube.com/embed/2H-ZiAfx7Ro)
 
 
