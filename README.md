@@ -2,6 +2,10 @@
 
 A microservice app created with Spring Boot `2.4.0` which accesses a PostgreSQL database and exposes a REST API.
 
+> See the video below:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2H-ZiAfx7Ro" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Helm Chart
 
 `k8s/charts/simple-service` is the Helm chart to install this microservice.
@@ -55,7 +59,7 @@ In the `helmfile.yaml`, configurations like `postgres.username` are passed to th
 
 1. Start Minikube.
 
-2. Use `eval $(minikube docker-env)` to configure Docker client in the current terminal to use Docker runtime in Minikube.
+2. Use `minikube docker-env` to print out the instructions on how to configure Docker client in the current terminal to use Docker runtime in Minikube.
 
 3. Build container image using `mvn package`.
 
