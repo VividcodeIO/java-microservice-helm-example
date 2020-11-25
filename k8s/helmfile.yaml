@@ -19,6 +19,8 @@ releases:
   - name: simple-service
     namespace: {{ env "NAMESPACE" | default "default" }}
     chart: ./charts/simple-service
+    needs:
+      - {{ env "NAMESPACE" | default "default" }}/postgres
     values: 
       - app:
           db:
