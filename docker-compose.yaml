@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  db:
+    image: postgres:13.1
+    env_file:
+      - db.env
+  app:
+    image: local/simpleservice:0.0.1-SNAPSHOT
+    env_file:
+      - db.env
+    ports:
+      - 10080:8080
+    depends_on:
+      - db  
