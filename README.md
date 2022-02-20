@@ -1,6 +1,6 @@
 # Java Microservice Example with Helm Chart
 
-A microservice app created with Spring Boot `2.4.0` which accesses a PostgreSQL database and exposes a REST API.
+A microservice app created with Spring Boot `2.6.3` which accesses a PostgreSQL database and exposes a REST API.
 
 > See the video below:
 
